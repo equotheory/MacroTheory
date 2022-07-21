@@ -1,7 +1,7 @@
 """
 Errors
 ------
-
+FalconType
 Exceptions and exception helpers.
 """
 

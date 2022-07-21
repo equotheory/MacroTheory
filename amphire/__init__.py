@@ -2,7 +2,7 @@
 Amphire-1
 -------
 Amphire Programming Language 
-.abr extention
+with .abr extention
 Python-like programming language.
 
 :copyright: (c) 2022 by Qazzain.

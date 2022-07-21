@@ -43,13 +43,10 @@ $ amp setup
 # or if a heavy file
 $ amp -render:first:setup
 ```
-## One More Command - GetPIP, GetVsCode, Make a new .abr file.
+## Extra Commands In AmpCLI
 ```
 $ amp load pip
 $ amp create pip
---
-$ amp load vsc
-$ amp create vsc
 --
 $ amp load abr
 # custom name
@@ -70,4 +67,5 @@ This symbol *, means done and the next version or patch is in dev.
 | 2*   | Y, Z, N        |
 |3*| V, B, O|
 |RE|1*, 2*, 3|
-|XER|Qf*, Qm, Qe|
+|XER|Qf*, Qm*, Qe*|
+|Fal|Xr*, Xf*, Xm*, Xe|

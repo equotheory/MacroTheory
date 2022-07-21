@@ -15,8 +15,6 @@ while True:
     os.system('curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py')
   elif initcmd == 'amp create pip':
     os.system('python3 get-pip.py')
-  elif initcmd == 'amp load vsc':
-      print('Coming Soon.')
   elif initcmd == 'amp load abr':
     os.system('touch start.abr')
     print('File Created: start.abr')

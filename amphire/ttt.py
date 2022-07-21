@@ -1,5 +1,6 @@
 """
 Python 2 to 3 compatibility helpers.
+Falcon Type
 """
 
 import sys

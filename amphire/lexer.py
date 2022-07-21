@@ -1,7 +1,7 @@
 """
 Lexer
 -----
-
+Falcon Type
 Regular expression based lexer.
 """
 import re
