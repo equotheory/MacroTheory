@@ -1,23 +1,23 @@
 import os
-print('Welcome to AmpCLI.')
+print('Welcome to AbsCLI.')
 initcmd = input('$ ')
 while True:
-  if initcmd == 'amp setup':
+  if initcmd == 'abs setup':
     filename = input('filename(eg. main.abr): ')
     try:
-      os.system(f'python3 -m amphire {filename}')
+      os.system(f'python3 -m abros {filename}')
     except:
-      print('AmpCLI Render=*/')
-  elif initcmd == 'amp -render:first:setup':
+      print('AbsCLI Render=*/')
+  elif initcmd == 'abs -render:first:setup':
     filename = input('filename(eg. main.abr): ')
-    os.system(f'python3 -m amphire {filename}')
-  elif initcmd == 'amp load pip':
+    os.system(f'python3 -m abros {filename}')
+  elif initcmd == 'abs load pip':
     os.system('curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py')
-  elif initcmd == 'amp create pip':
+  elif initcmd == 'abs create pip':
     os.system('python3 get-pip.py')
-  elif initcmd == 'amp load abr':
+  elif initcmd == 'abs load abr':
     os.system('touch start.abr')
     print('File Created: start.abr')
-  elif initcmd == 'amp load abr -n':
+  elif initcmd == 'abs load abr -n':
     askname = input('Name of File: ')
     os.system(f'touch {askname}.abr')

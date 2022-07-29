@@ -7,11 +7,11 @@ AST-walking interpreter.
 from __future__ import print_function
 import operator
 from collections import namedtuple
-from amphire import ast
-from amphire.lexer import Lexer, TokenStream
-from amphire.parser import Parser
-from amphire.errors import AbrvalgSyntaxError, report_syntax_error
-from amphire.utils import print_ast, print_tokens, print_env
+from abros import ast
+from abros.lexer import Lexer, TokenStream
+from abros.parser import Parser
+from abros.errors import AbrvalgSyntaxError, report_syntax_error
+from abros.utils import print_ast, print_tokens, print_env
 
 
 BuiltinFunction = namedtuple('BuiltinFunction', ['params', 'body'])

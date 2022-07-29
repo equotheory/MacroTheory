@@ -1,5 +1,5 @@
 import unittest
-from amphire.lexer import Lexer
+from abros.lexer import Lexer
 
 
 class LexerTest(unittest.TestCase):

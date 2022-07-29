@@ -5,7 +5,7 @@ FalconType
 Command line interface.
 """
 import argparse
-from amphire import __version__ as version, interpreter
+from abros import __version__ as version, interpreter
 
 
 try:
@@ -27,7 +27,7 @@ def interpret_file(path, verbose=False):
 
 
 def repl():
-    print('Amphire-1 {}. Press Ctrl+C to exit.'.format(version))
+    print('ABROS {}. Press Ctrl+C to exit.'.format(version))
     env = interpreter.create_global_env()
     buf = ''
     try:

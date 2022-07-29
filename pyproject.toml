@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "amphire"
-version = "1.1"
-description = "Amphire Language"
+name = "Abros"
+version = "1.0"
+description = "Abros Language"
 authors = ["Qazzain"]
 
 [tool.poetry.dependencies]

@@ -1,6 +1,6 @@
 import unittest
 import os
-from amphire.interpreter import evaluate
+from abros.interpreter import evaluate
 
 TESTS_DIR = os.path.dirname(__file__)
 

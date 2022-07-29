@@ -5,8 +5,8 @@ FalconType
 Top-down recursive descent parser.
 """
 
-from amphire import ast
-from amphire.errors import AbrvalgSyntaxError
+from abros import ast
+from abros.errors import AbrvalgSyntaxError
 
 
 class ParserError(AbrvalgSyntaxError):

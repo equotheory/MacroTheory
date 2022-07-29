@@ -1,6 +1,6 @@
-Amphire Lang
+Abros Language
 =======
-Amphire is a Python-like programming language. In this project by MS9, we have fixed some aspects we belived lacking in python. Scroll to the bottom to find the core idea.
+Abros is a Python-like programming language. In this project by Qazzain, we have fixed some aspects we belived lacking in python. Scroll to the bottom to find the core idea.
 
 The project contains:
 
@@ -9,7 +9,7 @@ The project contains:
 - AST-walking interpreter
 - REPL of the code
 
-Amphire doesn't require any third-party libraries.
+Abros doesn't require any third-party libraries.
 
 What the language looks like:
 
@@ -32,40 +32,21 @@ What the language looks like:
 
 You can find more examples in ``tests`` directory.
 
-#### To run: python3 -m amphire file.abr
+#### To run: python3 -m abros file.abr
 
-## Amphire - Run through AmpCLI - New
-Run `python3 AmpCLI/cli.py` to run
+## Extra Commands In AbsCLI
 ```
-# Make sure to enter correct name with extension
-# To run a .abr amphire file:
-$ amp setup
-# or if a heavy file
-$ amp -render:first:setup
-```
-## Extra Commands In AmpCLI
-```
-$ amp load pip
-$ amp create pip
---
-$ amp load abr
-# custom name
-$ amp load abr -n
+$ abs load pip
+$ abs create pip
 ```
 
 ## Why so mixed with python?
-You may have noticed that a lot of this code and modules work with python and sometimes only with  python and not Amphire becuase of the core idea of the project:
-> The core idea of Amphire is for not to replace Python but to work alongside it as an extention to patch certain parts that don't live up to modern-day workflows. This might mean creating Amphire and it might mean creating python packages.
+You may have noticed that a lot of this code and modules work with python and sometimes only with python and not Abros becuase of the core idea of the project:
+> The core idea of Abros is for not to replace Python but to work alongside it as an extention to patch certain parts that don't live up to modern-day workflows. This might mean creating Abros and it might mean creating python packages.
 ## Whats Next
-Amphire is a project with no limits.
-We want to, after the basic ecosystem is set, improve Amphire so that .abr files can work with or include Python.
+Abros is a project with no limits.
+We want to, after the basic ecosystem is set, improve Abros so that .abr files can work with or include Python.
 ## Versions Roadmap
-This symbol *, means done and the next version or patch is in dev.
-| Version      | Patches |
-| ----------- | ----------- |
-| 1 *     | X       |
-| 2*   | Y, Z, N        |
-|3*| V, B, O|
-|RE|1*, 2*, 3|
-|XER|Qf*, Qm*, Qe*|
-|Fal|Xr*, Xf*, Xm*, Xe|
+* = Done
+^ = nexr
+1*, 1.2^, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9
