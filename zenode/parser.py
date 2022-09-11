@@ -5,8 +5,8 @@ FalconType
 Top-down recursive descent parser.
 """
 
-from abros import ast
-from abros.errors import AbrvalgSyntaxError
+from zenode import ast
+from zenode.errors import AbrvalgSyntaxError
 
 
 class ParserError(AbrvalgSyntaxError):

@@ -6,8 +6,8 @@ Regular expression based lexer.
 """
 import re
 from collections import namedtuple, OrderedDict
-from abros.errors import AbrvalgSyntaxError as LexerError
-from abros.ttt import iteritems
+from zenode.errors import AbrvalgSyntaxError as LexerError
+from zenode.ttt import iteritems
 
 
 class Token(namedtuple('Token', ['name', 'value', 'line', 'column'])):

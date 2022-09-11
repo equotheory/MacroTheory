@@ -1,5 +1,5 @@
 import unittest
-from abros.lexer import Lexer
+from zenode.lexer import Lexer
 
 
 class LexerTest(unittest.TestCase):

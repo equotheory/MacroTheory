@@ -1,11 +1,8 @@
 """
 Main
-----
-FalconType
-Command line interface.
 """
 import argparse
-from abros import __version__ as version, interpreter
+from zenode import __version__ as version, interpreter
 
 
 try:

@@ -1,6 +1,6 @@
 import unittest
 import os
-from abros.interpreter import evaluate
+from zenode.interpreter import evaluate
 
 TESTS_DIR = os.path.dirname(__file__)
 

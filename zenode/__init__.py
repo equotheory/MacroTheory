@@ -1,11 +1,11 @@
 """
-ABROS Version 1
+Zenode Version 1
 -------
-ABROS Programming Language 
+Zenode Programming Language 
 with .abr extention
 Python-like programming language.
 
-:copyright: (c) 2022 by Qazzain
+:copyright: (c) 2022 by ZENOS TECH
 :license: BSD
 """
 __version__ = '1.0'

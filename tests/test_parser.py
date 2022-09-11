@@ -1,7 +1,7 @@
 import unittest
-from abros import ast
-from abros.lexer import Lexer, TokenStream
-from abros.parser import Parser
+from zenode import ast
+from zenode.lexer import Lexer, TokenStream
+from zenode.parser import Parser
 
 
 class ParserTest(unittest.TestCase):
