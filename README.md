@@ -1,4 +1,4 @@
-MacroTheory Language
+MacroTheory Language (Known Before As Trident/Zenode, now MacroTheory)
 =======
 MacroTheory is a Python-like programming language. In this project by EquoTheory, we have fixed some aspects we belived lacking in python. Scroll to the bottom to find the core idea.
 
